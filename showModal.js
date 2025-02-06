@@ -19,12 +19,12 @@
       $('#loadingUnduh').empty();
       $('#loadingUnduh').append('download document...');
       $('#unduhContent').empty();
-      $('#unduhContent').append('<a id="unduhContent" href="'+href+'" rel="nofollow">UNDUH KITA</a>');
+      $('#unduhContent').append('<a id="unduhContent" href="'+href+'" rel="nofollow">UNDUH</a>');
       $('#unduh').one('load', function(){$('#loadingUnduh').empty();});
   
       $('#loadingTonton').empty();
       $('#loadingTonton').append('Memuat vedio...');
       $('#tontonContent').empty();
-      $('#tontonContent').append('<a id="tontonContent" href="'+video+'" rel="nofollow">UNDUH KITA</a>');
+      $('#tontonContent').append('<a id="tontonContent" href="'+video+'" rel="nofollow">UNDUH</a>');
       $('#tonton').one('load', function(){$('#loadingTonton').empty();});       
     }
